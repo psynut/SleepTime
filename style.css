@@ -1,0 +1,142 @@
+/* color pallette: 335c67,9e2a2b,ffa500,540b0e,beb2c8*/
+#color-examples{
+  color: #335C67;
+  color: #9E2A2B;
+  color: #FFA500;
+  color: #540B0E;
+  color: #BEB2C8;
+}
+
+@font-face {
+  font-family: paperCuts;
+  src: url(fonts/papercuts-2.ttf);
+}
+
+@font-face {
+  font-family: 'Inria Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Londrina Solid', cursive;
+}
+
+#title{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  background-color: #9E2A2B;
+}
+
+.navbar{
+  background-color: #335C67;
+}
+.navbar-brand{
+  font-family: paperCuts;
+  color: #FFA500;
+}
+
+.tagline{
+  font-size: 5rem;
+  padding-top: 20%;
+  color: #FFFFFF;
+  font-family: 'Londrina Solid'
+}
+
+.title{
+  padding: auto 200px auto 200px;
+  text-align: center;
+  font-family: papercuts;
+  color: rgb(255,165,0);
+}
+
+.title .top{
+  white-space: nowrap;
+  font-size: 4rem;
+  position: absolute;
+  top:-10%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+.title .bottom{
+  font-size: 4rem;
+  position:absolute;
+  bottom:-6%;
+    left: 50%;
+  transform: translate(-50%, 0%);
+}
+.title img{
+  height: 400px;
+}
+
+.section-break{
+  color: #BEB2C8;
+  background-color: #9E2A2B;
+  margin-left: -200px;
+  padding: 0;
+  text-align: center;
+}
+
+.fa-location-arrow{
+  padding-left: 20px;
+  transform: rotate(45deg) translateY(-32px);
+}
+
+.fa-fighter-jet{
+  font-size: 4rem;
+}
+
+/*           Intro       */
+
+#intro{
+
+
+  font-size: 1.5rem;
+
+  background-color: #FFFFFF;
+  overflow:hidden;
+}
+
+#intro p{
+    padding: 100px 50px 50px 50px;
+    font: "Inria Sans", Sans-serif;
+    color: #540B0E;
+}
+
+#intro img{
+  margin:10% 0 10% 0;
+  position:absolute;
+  top: 0px;
+  width: 400px;
+}
+
+#about{
+  color: #540B0E;
+}
+
+/*TO REMOVE*/
+#about .d-flex{
+  min-height: 700px;
+  background: #BEB2C8;
+}
+
+.box{
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.box.two{
+  margin-top: 10%;
+}
+
+.box.three{
+  margin-bottom: 7%;
+}
+
+@media(max-width: 768px){
+  .test.two{
+    margin-top: auto;
+  }
+  .test.three{
+    margin-bottom: 10px;
+  }
+}

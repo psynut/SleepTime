@@ -20,6 +20,8 @@
   font-family: 'Londrina Solid', cursive;
 }
 
+
+
 #title{
   padding-top: 50px;
   padding-bottom: 25px;
@@ -68,20 +70,35 @@
   height: 400px;
 }
 
-.section-break.red{
-  color: #BEB2C8;
-  background-color: #9E2A2B;
+
+.section-break{
   margin-left: -200px;
   padding: 0;
   text-align: center;
+}
+.section-break.red{
+  color: #BEB2C8;
+  background-color: #9E2A2B;
 }
 
 .section-break.purple{
   color: #9e2a2b;
   background-color: #BEB2C8;
-  margin-left: -200px;
-  padding: 0;
-  text-align: center;
+}
+
+.section-break.white{
+  color: #540B0E;
+  background-color: white;
+}
+
+.section-break.white i{
+  transform: rotate(180deg);
+}
+
+.section-break.white .fa-location-arrow{
+  padding-right: 20px;
+  padding-left: 0;
+  transform: rotate(225deg) translate(40px, -3px);
 }
 
 .fa-location-arrow{
@@ -121,7 +138,6 @@
   color: #540B0E;
 }
 
-/*TO REMOVE*/
 #about .d-flex{
   min-height: 700px;
   background: #BEB2C8;
@@ -147,4 +163,9 @@
   .test.three{
     margin-bottom: 10px;
   }
+}
+
+#games{
+  background-color: #9E2A2B;
+  color: white;
 }

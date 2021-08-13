@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>Sleepy Time Games</title>
   <link rel="icon" href="images/favSTG.ico">
-  <link rel="stylesheet" href="style.css">
 
   <!--  Bootstrap v4.0  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,22 +16,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,400;0,700;1,400&family=Londrina+Solid:wght@300;400;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Sheet - Goes after bootstrap, etc. in order to override-->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!--      BootStrop NavBar        -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#"><img src="images/smallLogo.png" width="40" height="40" alt="Small Logo" </a>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+          <a class="navbar-brand" href="#"><img src="images/smallLogo.png" width="40" height="40" alt="Small Logo" </a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          <a class="nav-item nav-link" href="#intro">Intro</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#games">Games</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
         </div>
       </div>
   </nav>
@@ -133,29 +136,39 @@
 
   <div id="games">
     <h2>Play the games!</h2>
-    <h3>Games are only available on <a href="https://msibrava.itch.io/">itch.io</a>.</h3>
-    <h4>While there's a number of earlier games on there the two worth looking at are:</h4>
+    <h3>Games are only available on <a href="https://msibrava.itch.io/">itch.io <i class="fab fa-itch-io"></i></a></h3>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-12">
+          <a href="https://msibrava.itch.io/catch-that-bus">
           <h3>Catch That Bus!</h3>
+          <img class="video-game-title" src="images/CTB Title.jpg" alt="Catch That Bus Image">
+          </a>
         </div>
         <div class="col-lg-6 col-sm-12">
+          <a href="https://msibrava.itch.io/envision-minigame">
           <h3>Envision Minigame</h3>
+          <img class="video-game-title" src="images/EnvMinigame.jpg" alt="Envision Minigame Image">
+        </a>
         </div>
       </div>
     </div>
 
-    <h4>More to come!</h4>
+    <h4>More games to come!</h4>
+  </div>
+
+  <div class="section-break red">
+    <i class="fas fa-fighter-jet"></i><i class="fas fa-location-arrow"></i><i class="fas fa-location-arrow"></i><i class="fas fa-location-arrow"></i><i class="fas fa-location-arrow"></i><i class="fas fa-location-arrow"></i><i
+      class="fas fa-location-arrow"></i>
   </div>
 
   <div id="contact">
     <h4>Send a message if you have any helpful input...</h4>
     <h4><em>I don't need to know that the games are crummy</em></h4>
-    <i class="fab fa-brands fa-linkedin"></i>
-    <i class="fab fa-brands fa-facebook"></i>
-    <i class="fas fa-envelope-open-text"></i>
-    <i class="fab fa-github"></i>
+    <a href="https://www.linkedin.com/in/michael-sibrava"><i class="fab fa-brands fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/psynut"><i class="fab fa-brands fa-facebook"></i></a>
+    <a href="mailto:msibrava@gmail.com?subject=Loved Your Website And Games!"><i class="fas fa-envelope-open-text"></i></a>
+    <a href="https://github.com/psynut"><i class="fab fa-github"></i></a>
 
   </div>
 

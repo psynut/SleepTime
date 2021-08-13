@@ -20,6 +20,19 @@
   font-family: 'Londrina Solid', cursive;
 }
 
+h2, h3{
+  font-family: 'Londrina Solid';
+  font-weight: 400;
+}
+
+h4{
+  font-family: 'Londrina Solid';
+  font-weight: 300;
+}
+
+p{
+  font-family: 'Inria Sans';
+}
 
 
 #title{
@@ -30,6 +43,7 @@
 
 .navbar{
   background-color: #335C67;
+  font-family: 'Inria Sans';
 }
 .navbar-brand{
   font-family: paperCuts;
@@ -113,10 +127,7 @@
 /*           Intro       */
 
 #intro{
-
-
   font-size: 1.5rem;
-
   background-color: #FFFFFF;
   overflow:hidden;
 }
@@ -166,6 +177,43 @@
 }
 
 #games{
+  padding:2% 10% 2% 20px;
   background-color: #9E2A2B;
   color: white;
+}
+
+#games i{
+  color: white;
+}
+
+#games .col-lg-6 a{
+  color: white;
+}
+
+#games .col-lg-6{
+  text-align: center;
+  padding: 10px;
+}
+
+#games h4{
+
+  margin-top: 40px;
+}
+
+.video-game-title{
+  width: 80%;
+}
+
+#contact{
+  margin: 20px 0px 20px;
+  text-align:center;
+}
+
+#contact i{
+  font-size: 2em;
+}
+
+footer{
+  text-align: center;
+  font-weight: bold;
 }

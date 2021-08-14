@@ -84,6 +84,15 @@ p{
   height: 400px;
 }
 
+.title button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor: default;
+  overflow: hidden;
+  outline:none;
+}
+
 
 .section-break{
   margin-left: -200px;

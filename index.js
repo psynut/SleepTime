@@ -5,6 +5,9 @@ faceButton.addEventListener("click",function(){
 
 var playedYawn = false;
 
+var copyrightDate = document.querySelector(".copyrightdate");
+copyrightDate.innerHTML = new Date().getFullYear();
+
 function playYawn(){
   if (playedYawn !== true){
     var yawnClip = new Audio("sounds/yawn.ogg");

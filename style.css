@@ -195,6 +195,10 @@ p{
   color: white;
 }
 
+#games .row{
+  margin-top: 1em;
+}
+
 #games .col-lg-6 a{
   color: white;
 }

@@ -104,6 +104,10 @@ p{
   background-color: #9E2A2B;
 }
 
+.section-break.left{
+  transform: rotate(180deg);
+}
+
 .section-break.purple{
   color: #9e2a2b;
   background-color: #BEB2C8;

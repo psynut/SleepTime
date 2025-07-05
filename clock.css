@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: 'Sometype Mono', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap)
+}
+
+body{
+    background-color: black;
+    color: navajowhite;
+}
+
+h1{
+ font-family: 'Sometype Mono';
+ text-align: center;
+ font-size: 3em;
+}
+
+h4{
+ font-family: 'Sometype Mono';
+ font-size: clamp(1.5em, 10vw, 200px);
+ text-align: center;
+}
+
+h5{
+ font-family: 'Sometype Mono';
+ font-size: clamp(1.5em, 5vw, 180px);
+ text-align: center;
+}
+
+footer{
+  text-align: center;
+  font-weight: bold;
+}
+
+.display{
+    height: 80vh;
+}

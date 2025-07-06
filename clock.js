@@ -46,7 +46,7 @@ function UpdateDisplay(){
     hourDisplay.innerHTML = ((thisHour + 24) % 12 || 12).toString().padStart(2,'0')
     minutesDisplay.innerHTML = thisMinute.toString().padStart(2,'0');
     secondsDisplay.innerHTML = thisSecond.toString().padStart(2,'0');
-    aMPMDisplay = (thisHour >= 12) ? "PM" : "AM";
+    aMPMDisplay.innerHTML = (thisHour >= 12) ? "PM" : "AM";
     dayOfWeekDisplay.innerHTML = dayNames[thisDayOfTheWeek];
     monthDisplay.innerHTML = monthNames[thisMonth];
     dayOfMonthDisplay.innerHTML = thisDate.toString();

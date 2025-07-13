@@ -17,13 +17,13 @@ h1{
 
 h4{
  font-family: 'Sometype Mono';
- font-size: clamp(1.5em, 10vw, 200px);
+ font-size: clamp(1.5em, 12vw, 200px);
  text-align: center;
 }
 
 h5{
  font-family: 'Sometype Mono';
- font-size: clamp(1.5em, 5vw, 180px);
+ font-size: clamp(1.5em, 08vw, 180px);
  text-align: center;
 }
 

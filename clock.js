@@ -116,12 +116,12 @@ function Scooch(){
   let xMovingElements = document.querySelectorAll(".pixel-shift-x");
   let yMovingElements = document.querySelectorAll(".pixel-shift-y");
   for(const m_Element of xMovingElements){
-    let rndX = Math.floor((Math.random()*100)-50);
+    let rndX = Math.floor((Math.random()*50)-25);
     m_Element.style.position = "relative";
     m_Element.style.left = rndX+'px';
   }
   for(const m_Element of yMovingElements){
-    let rndY = Math.floor((Math.random()*100)-50);
+    let rndY = Math.floor((Math.random()*50)-25);
     m_Element.style.position = "relative";
     m_Element.style.top = rndY+'px';
   }

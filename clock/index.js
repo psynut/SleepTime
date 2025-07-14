@@ -85,7 +85,7 @@ function AnimateCatOnce(){
 }
 
 function CatsNextFrame(){
-  runningImage.src="../"+catRunningImages[catFrameCount];
+  runningImage.src="http://www.sleepytime.fun/"+catRunningImages[catFrameCount];
   catFrameCount++;
   if(catFrameCount >= catRunningImages.length){
     catFrameCount = 0;

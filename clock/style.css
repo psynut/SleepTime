@@ -22,15 +22,15 @@ h1{
 }
 
 h4{
- font-family: 'Kadwa';
- font-weight:700;
+ font-family: 'Sometype Mono';
+ font-weight: bold;
  font-size: clamp(1.5em, 15vw, 200px);
  text-align: center;
 }
 
 h5{
- font-family: 'Kadwa';
- font-weight:700;
+ font-family: 'Sometype Mono';
+ font-weight: bold;
  font-size: clamp(1.5em, 10vw, 180px);
  text-align: center;
 }

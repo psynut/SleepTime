@@ -4,6 +4,12 @@
   src: url(https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap)
 }
 
+@font-face{
+  font-family: "Kadwa", serif;
+  src: url(https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap)
+}
+
+
 body{
     background-color: black;
     color: navajowhite;
@@ -16,13 +22,15 @@ h1{
 }
 
 h4{
- font-family: 'Sometype Mono';
+ font-family: 'Kadwa';
+ font-weight:700;
  font-size: clamp(1.5em, 15vw, 200px);
  text-align: center;
 }
 
 h5{
- font-family: 'Sometype Mono';
+ font-family: 'Kadwa';
+ font-weight:700;
  font-size: clamp(1.5em, 10vw, 180px);
  text-align: center;
 }

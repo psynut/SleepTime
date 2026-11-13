@@ -12,7 +12,8 @@ function getDatabaseConnection(): PDO
         $config['dbname']
     );
 
-    return new PDO(
+    // Create the database connection.
+    $pdo = new PDO(
         $dsn,
         $config['username'],
         $config['password'],
@@ -22,4 +23,10 @@ function getDatabaseConnection(): PDO
             PDO::ATTR_EMULATE_PREPARES => false
         ]
     );
+
+    // Set the database connection's time zone to UTC.
+    $pdo->exec("SET time_zone = '+00:00'");
+
+    // Return the configured connection.
+    return $pdo;
 }
